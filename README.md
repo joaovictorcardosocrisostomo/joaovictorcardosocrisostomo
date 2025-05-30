@@ -19,10 +19,10 @@
 ![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white) ![DIO](https://img.shields.io/badge/DIO-grey?style=for-the-badge&logo=DIO&logoColor=white) ![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white) 
 
 ## Minhas Contribuições 👥
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=white&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
 
 ## Meus Projetos 🧠
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=ytDown&bg_color=000&border_color=grey&show_icons=true&icon_color=white&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/ytDown)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=ytDown&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/ytDown)
 
 <!--
 **joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
