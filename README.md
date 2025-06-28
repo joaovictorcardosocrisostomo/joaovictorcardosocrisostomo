@@ -22,7 +22,8 @@
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
 
 ## Meus Projetos 🧠
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=ytDown&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/ytDown)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Modelos-de-BD-Relacionais&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercícios-estatística-PowerBI-e-excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel))
 
 <!--
 **joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
