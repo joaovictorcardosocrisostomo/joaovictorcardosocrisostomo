@@ -23,7 +23,7 @@
 
 ## Meus Projetos 🧠
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Modelos-de-BD-Relacionais&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercícios-estatística-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercicios-estatistica-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
 
 <!--
 **joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
