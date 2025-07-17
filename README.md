@@ -1,4 +1,4 @@
-# Victor? É, sou eu 😉
+# Victor, prazer 😉
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
 ## Conecte-se Comigo 🔗
