@@ -1,5 +1,5 @@
 # Victor, prazer 😉
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
+![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
 ## Conecte-se Comigo 🔗
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=red)](https://www.linkedin.com/in/joão-victor-cardoso-crisóstomo-632058280) [![Gmail](https://img.shields.io/badge/j.victorccrisostomo@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](j.victorccrisostomo@gmail.com) [![Instagram](https://img.shields.io/badge/ensina.jv-white.svg?style=for-the-badge&logo=Instagram&logoColor=black)](https://www.instagram.com/ensina.jv) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joaovictorcardosocrisostomo) ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
@@ -12,15 +12,12 @@
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![Perplexity](https://img.shields.io/badge/perplexity-000000?style=for-the-badge&logo=perplexity&logoColor=088F8F) ![ClaudeAI](https://img.shields.io/badge/ClaudeAI-orange?style=for-the-badge&logo=claude&logoColor=white)
 
 
-## Onde Eu Aprendi 🔬
-![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white) ![DIO](https://img.shields.io/badge/DIO-grey?style=for-the-badge&logo=DIO&logoColor=white) 
-
 ## Minhas Contribuições 👥
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
+[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
 
 ## Meus Projetos 🧠
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Modelos-de-BD-Relacionais&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercicios-estatistica-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
+[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Modelos-de-BD-Relacionais&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
+[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercicios-estatistica-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
 
 <!--
 **joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
