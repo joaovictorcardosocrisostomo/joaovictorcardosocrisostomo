@@ -55,17 +55,4 @@ Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologi
 
 ![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
-<!--
-**joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
--->
-
-- 🔭 I’m currently working on an automation of a wastewater treatment proccess
-- 🌱 I’m currently learning the basics of python
-- 💬 Ask me about my career
-- 📫 How to reach me: j.victorccrisostomo@gmail.com
-- ⚡ Fun fact: I code for fun!
-<!-- - 👯 I’m looking to collaborate on 
-- 😄 Pronouns: ...
-- 🤔 I’m looking for help with ... -->
