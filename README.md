@@ -1,17 +1,65 @@
-# Victor, prazer 😉
-![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
+# Olá, meu nome é Victor! 👨‍🔬💻
+Alquimista da Tecnologia ⚝
+
+⟩ Github@Victor
+$ sudo ▌
+### Químico & Desenvolvedor Fullstack
 
 ## Conecte-se Comigo 🔗
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=red)](https://www.linkedin.com/in/joão-victor-cardoso-crisóstomo-632058280) [![Gmail](https://img.shields.io/badge/j.victorccrisostomo@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](j.victorccrisostomo@gmail.com)
 
-## Minhas Ferramentas 🧐
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white) ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![GoogleColab](https://img.shields.io/badge/GoogleColab-white?style=for-the-badge&logo=googlecolab&logoColor=black) ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white) ![Google Gemini](https://img.shields.io/badge/google%20gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white) ![ClaudeAI](https://img.shields.io/badge/ClaudeAI-orange?style=for-the-badge&logo=claude&logoColor=white)
+Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologia.
+
+---
+
+## 🚧 Working (Em Andamento)
+> Projetos principais onde estou focado agora.
+
+| Projeto | Tags | Descrição |
+| :--- | :--- | :--- |
+| **[Monitoramento H2V](LINK-AQUI)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Trabalhando-orange) | Sistema de controle para reator de Hidrogênio Verde com IoT. |
+| **[Site Grupo de Cromatografia](https://github.com/Eletronicapoa/site-poa.git)** | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Status](https://img.shields.io/badge/Status-Trabalhando-orange) | Portal institucional para o Grupo de Cromatografia da UFC |
+
+---
+
+## ✅ Concluídos & Portfólio
+> Projetos finalizados e prontos para uso.
+
+| Projeto | Tags | Descrição |
+| :--- | :--- | :--- |
+| **[Nome do Projeto](LINK-AQUI)** | ![Concluído](https://img.shields.io/badge/Status-Concluído-brightgreen) | Breve descrição do que o projeto faz. |
+
+---
+
+## 🧪 Sandbox & Estudos
+> Onde eu quebro coisas para aprender. Testes, scripts e projetos ainda não terminados.
+
+### 🐍 Python
+* **[oracle-llama](LINK-AQUI)** ![Estudos](https://img.shields.io/badge/Tipo-Estudos-blueviolet) - *Meu "Oráculo" local rodando LLM com a Wiki do Arch Linux.*
+* **[removebg-py](LINK-AQUI)** ![Testes](https://img.shields.io/badge/Tipo-Testes-lightgrey) - *Removedor de fundo para imagens.*
+
+### 🌐 JavaScript / Web
+* **[projeto1](LINK-AQUI)** ![Estudos](https://img.shields.io/badge/Tipo-Estudos-blueviolet) - *Jogo estilo "infinito" inspirado em Space Invaders.*
+* **[projeto2](LINK-AQUI)** ![Testes](https://img.shields.io/badge/Tipo-Testes-lightgrey) - *Testes *
+
+---
+
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=git)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql) 
+
+
+![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
 
 ## Minhas Contribuições 👥
 [![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
 
-## Meus Projetos 🧠
+## Autodidata 🧠
 [![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=exercises-python-crash-course&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
 [![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercicios-estatistica-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
 
@@ -23,9 +71,9 @@ Here are some ideas to get you started:
 
 - 🔭 I’m currently working on an automation of a wastewater treatment proccess
 - 🌱 I’m currently learning the basics of python
-<!-- - 👯 I’m looking to collaborate on 
-- 😄 Pronouns: ...
-- 🤔 I’m looking for help with ... -->
 - 💬 Ask me about my career
 - 📫 How to reach me: j.victorccrisostomo@gmail.com
 - ⚡ Fun fact: I code for fun!
+<!-- - 👯 I’m looking to collaborate on 
+- 😄 Pronouns: ...
+- 🤔 I’m looking for help with ... -->
