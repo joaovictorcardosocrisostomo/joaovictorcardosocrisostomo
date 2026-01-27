@@ -1,57 +1,30 @@
-# Olá, meu nome é Victor! 👨‍🔬💻
-Alquimista da Tecnologia ⚝
-
-⟩ Github@Victor
-$ sudo ▌
+# Olá, meu nome é Victor! 👋
 ### Químico & Desenvolvedor Fullstack
 
-## Conecte-se Comigo 🔗
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=red)](https://www.linkedin.com/in/joão-victor-cardoso-crisóstomo-632058280) [![Gmail](https://img.shields.io/badge/j.victorccrisostomo@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](j.victorccrisostomo@gmail.com)
-
-Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologia.
-
----
-
-## 🚧 Working (Em Andamento)
-> Projetos principais onde estou focado agora.
-
-| Projeto | Tags | Descrição |
-| :--- | :--- | :--- |
-| **[Monitoramento H2V](LINK-AQUI)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Status](https://img.shields.io/badge/Status-Trabalhando-orange) | Sistema de controle para reator de Hidrogênio Verde com IoT. |
-| **[Site Grupo de Cromatografia](https://github.com/Eletronicapoa/site-poa.git)** | ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Status](https://img.shields.io/badge/Status-Trabalhando-orange) | Portal institucional para o Grupo de Cromatografia da UFC |
-
----
-
-## ✅ Concluídos & Portfólio
-> Projetos finalizados e prontos para uso.
-
-| Projeto | Tags | Descrição |
-| :--- | :--- | :--- |
-| **[Nome do Projeto](LINK-AQUI)** | ![Concluído](https://img.shields.io/badge/Status-Concluído-brightgreen) | Breve descrição do que o projeto faz. |
-
----
-
-## 🧪 Sandbox & Estudos
-> Onde eu quebro coisas para aprender. Testes, scripts e projetos ainda não terminados.
-
-### 🐍 Python
-* **[oracle-llama](LINK-AQUI)** ![Estudos](https://img.shields.io/badge/Tipo-Estudos-blueviolet) - *Meu "Oráculo" local rodando LLM com a Wiki do Arch Linux.*
-* **[removebg-py](LINK-AQUI)** ![Testes](https://img.shields.io/badge/Tipo-Testes-lightgrey) - *Removedor de fundo para imagens.*
-
-### 🌐 JavaScript / Web
-* **[projeto1](LINK-AQUI)** ![Estudos](https://img.shields.io/badge/Tipo-Estudos-blueviolet) - *Jogo estilo "infinito" inspirado em Space Invaders.*
-* **[projeto2](LINK-AQUI)** ![Testes](https://img.shields.io/badge/Tipo-Testes-lightgrey) - *Testes *
+Uno a teoria da **Química** com a inovação da **Tecnologia** para criar soluções eficientes.
 
 ---
 
 ### 🛠️ Tech Stack
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=git)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_Arch%2FMint-FCC624?style=flat&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat-square&logo=mysql)
 
+---
+
+### 📫 Contato
+* **LinkedIn:** [linkedin.com/in/seu-perfil](LINK-DO-LINKEDIN)
+* **Email:** [j.victorccrisostomo@gmail.com](mailto:j.victorccrisostomo@gmail.com)
+
+
+
+Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologia.
+
+---
 
 ![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
