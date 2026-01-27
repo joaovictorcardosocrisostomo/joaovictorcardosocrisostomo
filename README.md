@@ -55,14 +55,6 @@ Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologi
 
 ![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
-
-## Minhas Contribuições 👥
-[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=dio-lab-open-source&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/dio-lab-open-source)
-
-## Autodidata 🧠
-[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=exercises-python-crash-course&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)]((https://github.com/joaovictorcardosocrisostomo/Modelos-de-BD-Relacionais))
-[![Repo Card](https://vercel-github-stats-pi.vercel.app/api/pin/?username=joaovictorcardosocrisostomo&repo=Exercicios-estatistica-Power-BI-e-Excel&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)](https://github.com/joaovictorcardosocrisostomo/Exercicios-estatistica-Power-BI-e-Excel)
-
 <!--
 **joaovictorcardosocrisostomo/joaovictorcardosocrisostomo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
