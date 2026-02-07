@@ -15,7 +15,7 @@ Uno a teoria da **Química** com a inovação da **Tecnologia** para criar solu�
 ---
 
 ### 📫 Contato
-* **LinkedIn:** [linkedin.com/in/seu-perfil](LINK-DO-LINKEDIN)
+* **LinkedIn:** [linkedin.com/in/joão-victor](https://www.linkedin.com/in/joão-victor-cardoso-crisóstomo-632058280)
 * **Email:** [j.victorccrisostomo@gmail.com](mailto:j.victorccrisostomo@gmail.com)
 
 
