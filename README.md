@@ -22,8 +22,5 @@ Uno a teoria da **Química** com a inovação da **Tecnologia** para criar solu�
 
 Bem-vindo ao meu laboratório de código! Aqui eu misturo química com tecnologia.
 
----
-
-![GitHub Stats](https://vercel-github-stats-pi.vercel.app/api?username=joaovictorcardosocrisostomo&theme=transparent&bg_color=000&border_color=grey&show_icons=true&icon_color=FFF&title_color=F70000&text_color=FFF)
 
 
