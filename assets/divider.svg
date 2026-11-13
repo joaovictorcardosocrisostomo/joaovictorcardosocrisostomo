@@ -5,7 +5,7 @@
 .l{stroke-dasharray:6 10;animation:dash 1.5s linear infinite}
 @keyframes dash{to{stroke-dashoffset:-32}}
 </style>
-<defs><filter id="b" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<defs><radialGradient id="g"><stop offset=".3" stop-color="#D71F2D"/><stop offset="1" stop-color="#D71F2D" stop-opacity="0"/></radialGradient></defs>
 <line class="l" x1="20" y1="20" x2="1260" y2="20" stroke="#D71F2D" stroke-opacity=".6" stroke-width="2"/>
-<g class="run"><circle cx="40" cy="20" r="9" fill="#D71F2D" filter="url(#b)"/><circle cx="40" cy="20" r="5" fill="white"/></g>
+<g class="run"><circle cx="40" cy="20" r="13" fill="url(#g)"/><circle cx="40" cy="20" r="5" fill="white"/></g>
 </svg>

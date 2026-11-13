@@ -39,31 +39,34 @@ def fox_group(x, y, size, delay=0.0, cls="fox"):
     )
 
 
-def matrix(w, h, cols, size=16, opacity=0.35, seed=1):
+def matrix(w, h, cols, size=16, opacity=0.35, seed=1, trail=10):
+    """Chuva matrix leve: cada coluna é um único <text> com um rastro curto que
+    desce em passos discretos (steps) — poucos glifos e repintura só a cada passo."""
     rnd = random.Random(seed)
     out = []
     step = w / cols
-    rows = int(h / size) + 2
+    n = int(h / size) + trail
     for c in range(cols):
         x = c * step + rnd.uniform(0, step * 0.4)
-        dur = rnd.uniform(6, 16)
+        dur = rnd.uniform(5, 12)
         delay = -rnd.uniform(0, dur)
-        bright = rnd.random() < 0.18
-        chars = []
-        for r in range(rows):
-            ch = escape(rnd.choice(CHARS))
-            op = rnd.uniform(0.25, 1)
-            chars.append(f'<text x="{x:.1f}" y="{r * size:.0f}" opacity="{op:.2f}">{ch}</text>')
-        # duas cópias empilhadas para loop contínuo
-        col = "".join(chars)
+        hot = rnd.random() < 0.2
+        spans = []
+        for r in range(trail):
+            fo = opacity * (0.15 + 0.85 * (r + 1) / trail)
+            fill = ' fill="#ff6b75"' if hot and r == trail - 1 else ""
+            spans.append(f'<tspan x="{x:.0f}" y="{r * size}" fill-opacity="{fo:.2f}"{fill}>{escape(rnd.choice(CHARS))}</tspan>')
         out.append(
-            f'<g class="rain{" hot" if bright else ""}" style="animation-duration:{dur:.1f}s;animation-delay:{delay:.1f}s">'
-            f'<g>{col}</g><g transform="translate(0 {-rows * size})">{col}</g></g>'
+            f'<text class="rain" style="animation-duration:{dur:.1f}s;animation-delay:{delay:.1f}s;'
+            f'animation-timing-function:steps({n})">{"".join(spans)}</text>'
         )
     return (
-        f'<g font-family="{MONO}" font-size="{size - 2}" fill="{RED}" opacity="{opacity}" '
-        f'style="--h:{rows * size}px">{"".join(out)}</g>'
+        f'<g font-family="{MONO}" font-size="{size - 2}" fill="{RED}" '
+        f'style="--s:{-trail * size}px;--h:{h}px">{"".join(out)}</g>'
     )
+
+
+RAIN_CSS = "@keyframes fall{from{transform:translateY(var(--s))}to{transform:translateY(var(--h))}}.rain{animation-name:fall;animation-iteration-count:infinite}"
 
 
 def typed(text, x, y, start, speed=0.06, size=22, fill="white", weight="400", cls="ch"):
@@ -126,9 +129,7 @@ def write(name, body):
 def header():
     W, H = 1280, 420
     css = f"""
-    .rain{{animation:fall linear infinite}}
-    .rain.hot text{{fill:#ff4d5a}}
-    @keyframes fall{{from{{transform:translateY(0)}}to{{transform:translateY(var(--h))}}}}
+    
     .orb{{animation:float ease-in-out infinite alternate}}
     @keyframes float{{from{{transform:translate(0,0) scale(1)}}to{{transform:translate(var(--dx),var(--dy)) scale(1.08)}}}}
     .ch{{opacity:0;animation:on .01s forwards}}
@@ -158,7 +159,7 @@ def header():
         (1060, 400, 38, 10, 0, "12px", "-25px", 6),
     ]
     orb_svg = "".join(
-        f'<circle class="orb" cx="{x}" cy="{y}" r="{r}" fill="{RED}" filter="{"url(#blur" + str(b) + ")" if b else "none"}" '
+        f'<circle class="orb" cx="{x}" cy="{y}" r="{r}" fill="{"url(#soft)" if b else RED}" '
         f'style="--dx:{dx};--dy:{dy};animation-duration:{d}s;transform-box:fill-box;transform-origin:center"/>'
         for x, y, r, b, _, dx, dy, d in orbs
     )
@@ -169,17 +170,16 @@ def header():
     nx = 1210 - nw
     t_role = e2 + 1.9
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<style>{css}</style>
+<style>{css}{RAIN_CSS}</style>
 <defs>
 <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#232121"/><stop offset=".625" stop-color="#000"/></linearGradient>
-<filter id="blur6" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
-<filter id="blur10" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<radialGradient id="soft"><stop offset=".82" stop-color="{RED}"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></radialGradient>
 <linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1"><stop stop-color="{RED}" stop-opacity="0"/><stop offset=".5" stop-color="{RED}" stop-opacity=".12"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></linearGradient>
 <clipPath id="clip"><rect width="{W}" height="{H}" rx="18"/></clipPath>
 </defs>
 <g clip-path="url(#clip)">
 <rect width="{W}" height="{H}" fill="url(#bg)"/>
-{matrix(W, H, 70, size=18, opacity=0.28)}
+{matrix(W, H, 34, size=18, opacity=0.45, trail=12)}
 {orb_svg}
 <rect class="scan" width="{W}" height="40" fill="url(#scanG)"/>
 {l1}{l2}
@@ -241,7 +241,7 @@ def about():
         out.append(s)
         y += 38
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<style>{css}</style>
+<style>{css}{RAIN_CSS}</style>
 <rect class="glow" x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="#0b0b0b" stroke="{RED}" stroke-opacity=".35" stroke-width="2"/>
 <path d="M1 15a14 14 0 0 1 14-14h{W - 30}a14 14 0 0 1 14 14v31H1z" fill="#1a1818"/>
 <circle class="dot" cx="32" cy="24" r="7" fill="{RED}"/><circle cx="56" cy="24" r="7" fill="#555"/><circle cx="80" cy="24" r="7" fill="#555"/>
@@ -310,7 +310,7 @@ def stack():
     bubbles = "".join(
         f'<circle class="bubble" cx="{rnd.uniform(40, W - 40):.0f}" cy="{H - 10}" r="{rnd.uniform(2, 6):.1f}" fill="{RED}" '
         f'style="animation-duration:{rnd.uniform(4, 9):.1f}s;animation-delay:-{rnd.uniform(0, 9):.1f}s"/>'
-        for _ in range(26)
+        for _ in range(12)
     )
     legend = []
     lx = 40
@@ -319,7 +319,7 @@ def stack():
                       f'<text x="{lx + 22}" y="{H - 30}" font-size="15" fill="#aaa">{cat}</text>')
         lx += 170
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{MONO}">
-<style>{css}</style>
+<style>{css}{RAIN_CSS}</style>
 <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="#060606" stroke="#222" stroke-width="2"/>
 {bubbles}
 <g transform="translate({W - 70} 45)"><g class="react">
@@ -345,8 +345,7 @@ PROJECTS = [
 def card(slug, repo, title, d1, d2, tags, idx):
     W, H = 620, 230
     css = f"""
-    .rain{{animation:fall linear infinite}}
-    @keyframes fall{{from{{transform:translateY(0)}}to{{transform:translateY(var(--h))}}}}
+    
     .bar{{animation:bar 3s ease-in-out infinite}}
     @keyframes bar{{0%,100%{{transform:scaleX(.15)}}50%{{transform:scaleX(1)}}}}
     .orb{{animation:orb 6s ease-in-out infinite alternate}}
@@ -362,14 +361,13 @@ def card(slug, repo, title, d1, d2, tags, idx):
                        f'<text x="{tx + w / 2}" y="191" font-size="14" text-anchor="middle" fill="#eee">{t}</text>')
         tx += w + 10
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="{MONO}">
-<style>{css}</style>
+<style>{css}{RAIN_CSS}</style>
 <defs><clipPath id="c"><rect width="{W}" height="{H}" rx="14"/></clipPath>
-<filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<radialGradient id="soft"><stop offset=".35" stop-color="{RED}"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></radialGradient>
 <linearGradient id="g" x1="0" x2="1"><stop stop-color="#1d1b1b"/><stop offset=".7" stop-color="#050505"/></linearGradient></defs>
 <g clip-path="url(#c)">
 <rect width="{W}" height="{H}" fill="url(#g)"/>
-<circle class="orb" cx="{W - 20}" cy="30" r="70" fill="{RED}" opacity=".55" filter="url(#b)"/>
-{matrix(W, H, 30, size=14, opacity=0.12, seed=idx + 10)}
+<circle class="orb" cx="{W - 20}" cy="30" r="90" fill="url(#soft)" opacity=".55"/>
 <g>
 <text x="28" y="52" font-size="15" fill="{RED}">~/projetos/{escape(repo)}</text>
 <text x="28" y="94" font-size="34" font-weight="700" fill="white">{escape(title)}</text>
@@ -394,9 +392,9 @@ def divider():
 .l{{stroke-dasharray:6 10;animation:dash 1.5s linear infinite}}
 @keyframes dash{{to{{stroke-dashoffset:-32}}}}
 </style>
-<defs><filter id="b" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter></defs>
+<defs><radialGradient id="g"><stop offset=".3" stop-color="{RED}"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></radialGradient></defs>
 <line class="l" x1="20" y1="20" x2="{W - 20}" y2="20" stroke="{RED}" stroke-opacity=".6" stroke-width="2"/>
-<g class="run"><circle cx="40" cy="20" r="9" fill="{RED}" filter="url(#b)"/><circle cx="40" cy="20" r="5" fill="white"/></g>
+<g class="run"><circle cx="40" cy="20" r="13" fill="url(#g)"/><circle cx="40" cy="20" r="5" fill="white"/></g>
 </svg>"""
 
 
@@ -405,8 +403,7 @@ def footer():
     prompt = "victor@lab:~$ "
     s, _, x = typed("exit 0  # valeu pela visita!", 400 + len(prompt) * 15.6, 112, 0.5, speed=0.05, size=26)
     css = """
-    .rain{animation:fall linear infinite}
-    @keyframes fall{from{transform:translateY(0)}to{transform:translateY(var(--h))}}
+    
     .ch{opacity:0;animation:on .01s forwards}
     @keyframes on{to{opacity:1}}
     .fox-bob{animation:bob 3s ease-in-out infinite}
@@ -415,11 +412,11 @@ def footer():
     @keyframes blink{50%{opacity:1}}
     """
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-<style>{css}</style>
+<style>{css}{RAIN_CSS}</style>
 <defs><clipPath id="c"><rect width="{W}" height="{H}" rx="14"/></clipPath></defs>
 <g clip-path="url(#c)">
 <rect width="{W}" height="{H}" fill="#060606"/>
-{matrix(W, H, 60, size=16, opacity=0.15, seed=99)}
+{matrix(W, H, 26, size=16, opacity=0.3, seed=99, trail=7)}
 {fox_group(250, 30, 140)}
 <text x="400" y="112" font-family="{MONO}" font-size="26" font-weight="700" fill="{RED}">{prompt}</text>
 {s}
