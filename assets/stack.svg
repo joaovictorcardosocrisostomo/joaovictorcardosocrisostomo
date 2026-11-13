@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1312" height="482" viewBox="0 0 1312 482" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace">
+<style>
+    .el{opacity:0;transform-box:fill-box;transform-origin:center;animation:drop .7s cubic-bezier(.2,1.4,.4,1) forwards}
+    @keyframes drop{from{opacity:0;transform:translateY(-40px) scale(.6)}to{opacity:1;transform:none}}
+    .shine{animation:shine 7s ease-in-out infinite}
+    @keyframes shine{0%,70%,100%{opacity:0}80%{opacity:.9}}
+    .react{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .bubble{animation:rise linear infinite}
+    @keyframes rise{from{transform:translateY(0);opacity:0}15%{opacity:.8}to{transform:translateY(-120px);opacity:0}}
+    </style>
+<rect x="1" y="1" width="1310" height="480" rx="14" fill="#060606" stroke="#222" stroke-width="2"/>
+<circle class="bubble" cx="333" cy="472" r="4.2" fill="#D71F2D" style="animation-duration:5.8s;animation-delay:-5.4s"/><circle class="bubble" cx="811" cy="472" r="2.3" fill="#D71F2D" style="animation-duration:4.1s;animation-delay:-7.5s"/><circle class="bubble" cx="360" cy="472" r="2.9" fill="#D71F2D" style="animation-duration:9.0s;animation-delay:-4.2s"/><circle class="bubble" cx="1071" cy="472" r="3.9" fill="#D71F2D" style="animation-duration:7.2s;animation-delay:-1.4s"/><circle class="bubble" cx="822" cy="472" r="5.5" fill="#D71F2D" style="animation-duration:6.6s;animation-delay:-6.7s"/><circle class="bubble" cx="867" cy="472" r="2.3" fill="#D71F2D" style="animation-duration:7.8s;animation-delay:-5.3s"/><circle class="bubble" cx="411" cy="472" r="2.1" fill="#D71F2D" style="animation-duration:8.3s;animation-delay:-4.3s"/><circle class="bubble" cx="926" cy="472" r="5.5" fill="#D71F2D" style="animation-duration:7.6s;animation-delay:-8.3s"/><circle class="bubble" cx="527" cy="472" r="5.2" fill="#D71F2D" style="animation-duration:6.2s;animation-delay:-8.4s"/><circle class="bubble" cx="1123" cy="472" r="2.4" fill="#D71F2D" style="animation-duration:4.7s;animation-delay:-2.0s"/><circle class="bubble" cx="1229" cy="472" r="3.7" fill="#D71F2D" style="animation-duration:7.1s;animation-delay:-2.7s"/><circle class="bubble" cx="665" cy="472" r="3.5" fill="#D71F2D" style="animation-duration:5.8s;animation-delay:-5.3s"/><circle class="bubble" cx="760" cy="472" r="5.6" fill="#D71F2D" style="animation-duration:7.4s;animation-delay:-8.4s"/><circle class="bubble" cx="1095" cy="472" r="6.0" fill="#D71F2D" style="animation-duration:7.4s;animation-delay:-1.5s"/><circle class="bubble" cx="1100" cy="472" r="5.9" fill="#D71F2D" style="animation-duration:8.5s;animation-delay:-5.1s"/><circle class="bubble" cx="919" cy="472" r="2.8" fill="#D71F2D" style="animation-duration:8.2s;animation-delay:-5.2s"/><circle class="bubble" cx="391" cy="472" r="2.3" fill="#D71F2D" style="animation-duration:8.3s;animation-delay:-8.9s"/><circle class="bubble" cx="149" cy="472" r="5.2" fill="#D71F2D" style="animation-duration:6.1s;animation-delay:-1.4s"/><circle class="bubble" cx="402" cy="472" r="5.1" fill="#D71F2D" style="animation-duration:8.4s;animation-delay:-0.4s"/><circle class="bubble" cx="797" cy="472" r="2.2" fill="#D71F2D" style="animation-duration:7.6s;animation-delay:-3.0s"/><circle class="bubble" cx="1125" cy="472" r="5.9" fill="#D71F2D" style="animation-duration:6.5s;animation-delay:-9.0s"/><circle class="bubble" cx="422" cy="472" r="2.3" fill="#D71F2D" style="animation-duration:7.0s;animation-delay:-0.3s"/><circle class="bubble" cx="283" cy="472" r="3.6" fill="#D71F2D" style="animation-duration:7.1s;animation-delay:-1.4s"/><circle class="bubble" cx="92" cy="472" r="5.5" fill="#D71F2D" style="animation-duration:5.6s;animation-delay:-8.6s"/><circle class="bubble" cx="1145" cy="472" r="3.5" fill="#D71F2D" style="animation-duration:6.3s;animation-delay:-4.7s"/><circle class="bubble" cx="833" cy="472" r="4.4" fill="#D71F2D" style="animation-duration:6.8s;animation-delay:-5.6s"/>
+<g transform="translate(1242 45)"><g class="react">
+<ellipse rx="26" ry="9" fill="none" stroke="#D71F2D" stroke-width="2"/>
+<ellipse rx="26" ry="9" fill="none" stroke="#D71F2D" stroke-width="2" transform="rotate(60)"/>
+<ellipse rx="26" ry="9" fill="none" stroke="#D71F2D" stroke-width="2" transform="rotate(120)"/></g>
+<circle r="5" fill="white"/></g>
+<text x="40" y="54" font-size="26" font-weight="700" fill="white">Tabela Periódica <tspan fill="#D71F2D">do Dev</tspan></text>
+<g class="el" style="animation-delay:0.15s">
+<rect x="40" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#D71F2D" stroke-width="2"/>
+<rect class="shine" x="40" y="90" width="140" height="150" rx="10" fill="none" stroke="#D71F2D" stroke-width="5" style="animation-delay:0.00s"/>
+<text x="52" y="116" font-size="16" fill="#888">1</text>
+<text x="110.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#D71F2D">Py</text>
+<text x="110.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">Python</text>
+</g><g class="el" style="animation-delay:0.24s">
+<rect x="196" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#D71F2D" stroke-width="2"/>
+<rect class="shine" x="196" y="90" width="140" height="150" rx="10" fill="none" stroke="#D71F2D" stroke-width="5" style="animation-delay:0.43s"/>
+<text x="208" y="116" font-size="16" fill="#888">2</text>
+<text x="266.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#D71F2D">Js</text>
+<text x="266.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">JavaScript</text>
+</g><g class="el" style="animation-delay:0.33s">
+<rect x="352" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#D71F2D" stroke-width="2"/>
+<rect class="shine" x="352" y="90" width="140" height="150" rx="10" fill="none" stroke="#D71F2D" stroke-width="5" style="animation-delay:0.86s"/>
+<text x="364" y="116" font-size="16" fill="#888">3</text>
+<text x="422.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#D71F2D">Ts</text>
+<text x="422.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">TypeScript</text>
+</g><g class="el" style="animation-delay:0.42s">
+<rect x="508" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ffffff" stroke-width="2"/>
+<rect class="shine" x="508" y="90" width="140" height="150" rx="10" fill="none" stroke="#ffffff" stroke-width="5" style="animation-delay:1.29s"/>
+<text x="520" y="116" font-size="16" fill="#888">4</text>
+<text x="578.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#ffffff">Ht</text>
+<text x="578.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">HTML5</text>
+</g><g class="el" style="animation-delay:0.51s">
+<rect x="664" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ffffff" stroke-width="2"/>
+<rect class="shine" x="664" y="90" width="140" height="150" rx="10" fill="none" stroke="#ffffff" stroke-width="5" style="animation-delay:1.72s"/>
+<text x="676" y="116" font-size="16" fill="#888">5</text>
+<text x="734.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#ffffff">Cs</text>
+<text x="734.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">CSS3</text>
+</g><g class="el" style="animation-delay:0.60s">
+<rect x="820" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ffffff" stroke-width="2"/>
+<rect class="shine" x="820" y="90" width="140" height="150" rx="10" fill="none" stroke="#ffffff" stroke-width="5" style="animation-delay:2.15s"/>
+<text x="832" y="116" font-size="16" fill="#888">6</text>
+<text x="890.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#ffffff">Re</text>
+<text x="890.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">React</text>
+</g><g class="el" style="animation-delay:0.69s">
+<rect x="976" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ffffff" stroke-width="2"/>
+<rect class="shine" x="976" y="90" width="140" height="150" rx="10" fill="none" stroke="#ffffff" stroke-width="5" style="animation-delay:2.58s"/>
+<text x="988" y="116" font-size="16" fill="#888">7</text>
+<text x="1046.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#ffffff">Nx</text>
+<text x="1046.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">Next.js</text>
+</g><g class="el" style="animation-delay:0.78s">
+<rect x="1132" y="90" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ffffff" stroke-width="2"/>
+<rect class="shine" x="1132" y="90" width="140" height="150" rx="10" fill="none" stroke="#ffffff" stroke-width="5" style="animation-delay:3.01s"/>
+<text x="1144" y="116" font-size="16" fill="#888">8</text>
+<text x="1202.0" y="182" font-size="54" font-weight="700" text-anchor="middle" fill="#ffffff">Ph</text>
+<text x="1202.0" y="218" font-size="15" text-anchor="middle" fill="#ccc">PHP</text>
+</g><g class="el" style="animation-delay:0.24s">
+<rect x="40" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
+<rect class="shine" x="40" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:3.44s"/>
+<text x="52" y="282" font-size="16" fill="#888">9</text>
+<text x="110.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Sq</text>
+<text x="110.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">MySQL</text>
+</g><g class="el" style="animation-delay:0.33s">
+<rect x="196" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
+<rect class="shine" x="196" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:3.87s"/>
+<text x="208" y="282" font-size="16" fill="#888">10</text>
+<text x="266.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Pd</text>
+<text x="266.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Pandas</text>
+</g><g class="el" style="animation-delay:0.42s">
+<rect x="352" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
+<rect class="shine" x="352" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:4.30s"/>
+<text x="364" y="282" font-size="16" fill="#888">11</text>
+<text x="422.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Jp</text>
+<text x="422.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Jupyter</text>
+</g><g class="el" style="animation-delay:0.51s">
+<rect x="508" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
+<rect class="shine" x="508" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:4.73s"/>
+<text x="520" y="282" font-size="16" fill="#888">12</text>
+<text x="578.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Bi</text>
+<text x="578.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Power BI</text>
+</g><g class="el" style="animation-delay:0.60s">
+<rect x="664" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
+<rect class="shine" x="664" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:5.16s"/>
+<text x="676" y="282" font-size="16" fill="#888">13</text>
+<text x="734.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Ai</text>
+<text x="734.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Agentes IA</text>
+</g><g class="el" style="animation-delay:0.69s">
+<rect x="820" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#8a8a8a" stroke-width="2"/>
+<rect class="shine" x="820" y="256" width="140" height="150" rx="10" fill="none" stroke="#8a8a8a" stroke-width="5" style="animation-delay:5.59s"/>
+<text x="832" y="282" font-size="16" fill="#888">14</text>
+<text x="890.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#8a8a8a">Lx</text>
+<text x="890.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Linux</text>
+</g><g class="el" style="animation-delay:0.78s">
+<rect x="976" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#8a8a8a" stroke-width="2"/>
+<rect class="shine" x="976" y="256" width="140" height="150" rx="10" fill="none" stroke="#8a8a8a" stroke-width="5" style="animation-delay:6.02s"/>
+<text x="988" y="282" font-size="16" fill="#888">15</text>
+<text x="1046.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#8a8a8a">Gt</text>
+<text x="1046.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Git</text>
+</g><g class="el" style="animation-delay:0.87s">
+<rect x="1132" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#8a8a8a" stroke-width="2"/>
+<rect class="shine" x="1132" y="256" width="140" height="150" rx="10" fill="none" stroke="#8a8a8a" stroke-width="5" style="animation-delay:6.45s"/>
+<text x="1144" y="282" font-size="16" fill="#888">16</text>
+<text x="1202.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#8a8a8a">Dk</text>
+<text x="1202.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Docker</text>
+</g>
+<rect x="40" y="440" width="14" height="14" rx="3" fill="#D71F2D"/><text x="62" y="452" font-size="15" fill="#aaa">linguagem</text><rect x="210" y="440" width="14" height="14" rx="3" fill="#ffffff"/><text x="232" y="452" font-size="15" fill="#aaa">web</text><rect x="380" y="440" width="14" height="14" rx="3" fill="#ff7a84"/><text x="402" y="452" font-size="15" fill="#aaa">dados</text><rect x="550" y="440" width="14" height="14" rx="3" fill="#8a8a8a"/><text x="572" y="452" font-size="15" fill="#aaa">ferramenta</text>
+</svg>
