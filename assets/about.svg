@@ -8,7 +8,7 @@
     @keyframes pulse{50%{opacity:.35}}
     .glow{animation:glow 3s ease-in-out infinite}
     @keyframes glow{50%{stroke-opacity:.9}}
-    </style>
+    @keyframes fall{from{transform:translateY(var(--s))}to{transform:translateY(var(--h))}}.rain{animation-name:fall;animation-iteration-count:infinite}</style>
 <rect class="glow" x="1" y="1" width="1278" height="432" rx="14" fill="#0b0b0b" stroke="#D71F2D" stroke-opacity=".35" stroke-width="2"/>
 <path d="M1 15a14 14 0 0 1 14-14h1250a14 14 0 0 1 14 14v31H1z" fill="#1a1818"/>
 <circle class="dot" cx="32" cy="24" r="7" fill="#D71F2D"/><circle cx="56" cy="24" r="7" fill="#555"/><circle cx="80" cy="24" r="7" fill="#555"/>
