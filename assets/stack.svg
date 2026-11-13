@@ -93,8 +93,8 @@
 <rect x="664" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
 <rect class="shine" x="664" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:5.16s"/>
 <text x="676" y="282" font-size="16" fill="#888">13</text>
-<text x="734.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Ai</text>
-<text x="734.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Agentes IA</text>
+<text x="734.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">plt</text>
+<text x="734.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Matplotlib</text>
 </g><g class="el" style="animation-delay:0.69s">
 <rect x="820" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#8a8a8a" stroke-width="2"/>
 <rect class="shine" x="820" y="256" width="140" height="150" rx="10" fill="none" stroke="#8a8a8a" stroke-width="5" style="animation-delay:5.59s"/>
@@ -114,5 +114,5 @@
 <text x="1202.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#8a8a8a">Dk</text>
 <text x="1202.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Docker</text>
 </g>
-<rect x="40" y="440" width="14" height="14" rx="3" fill="#D71F2D"/><text x="62" y="452" font-size="15" fill="#aaa">linguagem</text><rect x="210" y="440" width="14" height="14" rx="3" fill="#ffffff"/><text x="232" y="452" font-size="15" fill="#aaa">web</text><rect x="380" y="440" width="14" height="14" rx="3" fill="#ff7a84"/><text x="402" y="452" font-size="15" fill="#aaa">dados</text><rect x="550" y="440" width="14" height="14" rx="3" fill="#8a8a8a"/><text x="572" y="452" font-size="15" fill="#aaa">ferramenta</text>
+<rect x="40" y="440" width="14" height="14" rx="3" fill="#D71F2D"/><text x="62" y="452" font-size="15" fill="#aaa">linguagem</text><rect x="210" y="440" width="14" height="14" rx="3" fill="#ffffff"/><text x="232" y="452" font-size="15" fill="#aaa">web</text><rect x="380" y="440" width="14" height="14" rx="3" fill="#ff7a84"/><text x="402" y="452" font-size="15" fill="#aaa">dados</text><rect x="550" y="440" width="14" height="14" rx="3" fill="#8a8a8a"/><text x="572" y="452" font-size="15" fill="#aaa">Ambiente</text>
 </svg>
