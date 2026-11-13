@@ -93,7 +93,7 @@
 <rect x="664" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#ff7a84" stroke-width="2"/>
 <rect class="shine" x="664" y="256" width="140" height="150" rx="10" fill="none" stroke="#ff7a84" stroke-width="5" style="animation-delay:5.16s"/>
 <text x="676" y="282" font-size="16" fill="#888">13</text>
-<text x="734.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">plt</text>
+<text x="734.0" y="348" font-size="54" font-weight="700" text-anchor="middle" fill="#ff7a84">Plt</text>
 <text x="734.0" y="384" font-size="15" text-anchor="middle" fill="#ccc">Matplotlib</text>
 </g><g class="el" style="animation-delay:0.69s">
 <rect x="820" y="256" width="140" height="150" rx="10" fill="#0f0f0f" stroke="#8a8a8a" stroke-width="2"/>
